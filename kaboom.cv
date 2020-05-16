@@ -1,0 +1,1927 @@
+{
+    "activeComp": "compNode#1",
+    "assets": [],
+    "connections": [
+        {
+            "from": "animationCurve#48.out",
+            "to": "oscillator#1.on"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "oscillator#1.time"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#30.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#30.time"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#47.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#47.time"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#48.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#48.time"
+        },
+        {
+            "from": "renderAPNG#1.id",
+            "to": "renderQueueItem#1.generator"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#4.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#4.time"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#6.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#6.time"
+        },
+        {
+            "from": "compNode#1.resolution",
+            "to": "backgroundShape#1.resolution"
+        },
+        {
+            "from": "colorMaterial#5.id",
+            "to": "backgroundShape#1.material"
+        },
+        {
+            "from": "animationCurve#7.out",
+            "to": "backgroundShape#1.on"
+        },
+        {
+            "from": "duplicator#1.id",
+            "to": "outline#6.masks.0.id"
+        },
+        {
+            "from": "duplicator#1.id",
+            "to": "outline#6.inputShape.0"
+        },
+        {
+            "from": "colorMaterial#26.id",
+            "to": "outline#6.material"
+        },
+        {
+            "from": "animationCurve#47.out",
+            "to": "outline#6.on"
+        },
+        {
+            "from": "typeShape#1.id",
+            "to": "convexHull#1.shapes.0"
+        },
+        {
+            "from": "colorMaterial#6.id",
+            "to": "convexHull#1.material"
+        },
+        {
+            "from": "pathOffsetBehaviour#2.id",
+            "to": "convexHull#1.deformers.0"
+        },
+        {
+            "from": "animationCurve#8.out",
+            "to": "convexHull#1.on"
+        },
+        {
+            "from": "animationCurve#30.out",
+            "to": "pathOffsetBehaviour#2.on"
+        },
+        {
+            "from": "convexHull#1.id",
+            "to": "pathDistribution#1.inputShape"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#7.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#7.time"
+        },
+        {
+            "from": "colorMaterial#1.id",
+            "to": "typeShape#1.material"
+        },
+        {
+            "from": "oscillator#1.id",
+            "to": "typeShape#1.scale"
+        },
+        {
+            "from": "animationCurve#1.out",
+            "to": "typeShape#1.on"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#1.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#1.time"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#2.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#2.time"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "simplexNoise#1.time"
+        },
+        {
+            "from": "noise#1.id",
+            "to": "duplicator#1.shapeRotation"
+        },
+        {
+            "from": "noise#1.id",
+            "to": "duplicator#1.shapeScale.y"
+        },
+        {
+            "from": "oscillator#1.id",
+            "to": "duplicator#1.motionBlur"
+        },
+        {
+            "from": "basicShape#1.id",
+            "to": "duplicator#1.shapes.0"
+        },
+        {
+            "from": "pathDistribution#1.id",
+            "to": "duplicator#1.generator"
+        },
+        {
+            "from": "noise#1.id",
+            "to": "duplicator#1.shapeScale.x"
+        },
+        {
+            "from": "animationCurve#4.out",
+            "to": "duplicator#1.on"
+        },
+        {
+            "from": "simplexNoise#1.id",
+            "to": "noise#1.generator"
+        },
+        {
+            "from": "animationCurve#6.out",
+            "to": "noise#1.on"
+        },
+        {
+            "from": "circleShape#2.id",
+            "to": "basicShape#1.generator"
+        },
+        {
+            "from": "colorMaterial#2.id",
+            "to": "basicShape#1.material"
+        },
+        {
+            "from": "animationCurve#2.out",
+            "to": "basicShape#1.on"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#8.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#8.time"
+        }
+    ],
+    "nodeMeta": [
+        {
+            "children": [],
+            "nodeId": "ringShape#1"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#26"
+        },
+        {
+            "children": [
+                "animationCurve#48"
+            ],
+            "nodeId": "oscillator#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#30"
+        },
+        {
+            "children": [],
+            "nodeId": "polygonShape#4"
+        },
+        {
+            "children": [],
+            "nodeId": "circleShape#2"
+        },
+        {
+            "children": [],
+            "nodeId": "renderAPNG#1"
+        },
+        {
+            "children": [],
+            "nodeId": "starShape#1"
+        },
+        {
+            "children": [],
+            "nodeId": "superEllipseShape#1"
+        },
+        {
+            "children": [
+                "strokeMaterial#26",
+                "colorMaterial#26"
+            ],
+            "nodeId": "hiddenFolder#30"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#26"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#47"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#48"
+        },
+        {
+            "children": [
+                "hiddenFolder#35"
+            ],
+            "nodeId": "renderQueueItem#1"
+        },
+        {
+            "children": [
+                "renderAPNG#1",
+                "renderPNG#1"
+            ],
+            "nodeId": "hiddenFolder#35"
+        },
+        {
+            "children": [],
+            "nodeId": "renderPNG#1"
+        },
+        {
+            "children": [
+                "simplexNoise#1"
+            ],
+            "nodeId": "hiddenFolder#5"
+        },
+        {
+            "children": [],
+            "nodeId": "randomDistribution#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#4"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#6"
+        },
+        {
+            "children": [
+                "hiddenFolder#6",
+                "animationCurve#7"
+            ],
+            "nodeId": "backgroundShape#1"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#4"
+        },
+        {
+            "children": [
+                "hiddenFolder#30",
+                "animationCurve#47"
+            ],
+            "nodeId": "outline#6"
+        },
+        {
+            "children": [
+                "pathOffsetBehaviour#2",
+                "hiddenFolder#7",
+                "animationCurve#8"
+            ],
+            "nodeId": "convexHull#1"
+        },
+        {
+            "children": [
+                "strokeMaterial#6",
+                "colorMaterial#6"
+            ],
+            "nodeId": "hiddenFolder#7"
+        },
+        {
+            "children": [
+                "animationCurve#30"
+            ],
+            "nodeId": "pathOffsetBehaviour#2"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#6"
+        },
+        {
+            "children": [],
+            "nodeId": "pathDistribution#1"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#4"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#7"
+        },
+        {
+            "children": [
+                "strokeMaterial#5",
+                "colorMaterial#5"
+            ],
+            "nodeId": "hiddenFolder#6"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#5"
+        },
+        {
+            "children": [
+                "hiddenFolder#1",
+                "animationCurve#1"
+            ],
+            "nodeId": "typeShape#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#2"
+        },
+        {
+            "children": [
+                "circleShape#2",
+                "polygonShape#4",
+                "superEllipseShape#1",
+                "starShape#1",
+                "ringShape#1",
+                "strokeMaterial#2",
+                "colorMaterial#2",
+                "ellipseShape#1"
+            ],
+            "nodeId": "hiddenFolder#2"
+        },
+        {
+            "children": [],
+            "nodeId": "ellipseShape#1"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#2"
+        },
+        {
+            "children": [],
+            "nodeId": "gridDistribution#1"
+        },
+        {
+            "children": [
+                "pathDistribution#1",
+                "randomDistribution#1",
+                "strokeMaterial#4",
+                "colorMaterial#4",
+                "gridDistribution#1"
+            ],
+            "nodeId": "hiddenFolder#4"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#6"
+        },
+        {
+            "children": [],
+            "nodeId": "simplexNoise#1"
+        },
+        {
+            "children": [
+                "hiddenFolder#4",
+                "animationCurve#4"
+            ],
+            "nodeId": "duplicator#1"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#2"
+        },
+        {
+            "children": [
+                "hiddenFolder#5",
+                "animationCurve#6"
+            ],
+            "nodeId": "noise#1"
+        },
+        {
+            "children": [
+                "hiddenFolder#2",
+                "animationCurve#2"
+            ],
+            "nodeId": "basicShape#1"
+        },
+        {
+            "children": [
+                "compNode#1"
+            ],
+            "nodeId": "asset#1"
+        },
+        {
+            "children": [
+                "oscillator#1",
+                "typeShape#1",
+                "convexHull#1",
+                "outline#6",
+                "duplicator#1",
+                "noise#1",
+                "basicShape#1",
+                "backgroundShape#1"
+            ],
+            "nodeId": "compNode#1"
+        },
+        {
+            "children": [
+                "colorArray#1"
+            ],
+            "nodeId": "paletteContainer#1"
+        },
+        {
+            "children": [],
+            "nodeId": "colorArray#1"
+        },
+        {
+            "children": [
+                "renderQueueItem#1"
+            ],
+            "nodeId": "renderQueue#1"
+        },
+        {
+            "children": [
+                "strokeMaterial#1",
+                "colorMaterial#1"
+            ],
+            "nodeId": "hiddenFolder#1"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#1"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#5"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#8"
+        }
+    ],
+    "nodes": [
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Ring 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "ringShape#1",
+            "nodeType": "ringShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 26",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#26",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Pink",
+                    "varType": "string"
+                },
+                "frequency": {
+                    "value": 1.0,
+                    "varType": "double"
+                },
+                "maximum": {
+                    "value": 3.0,
+                    "varType": "double"
+                },
+                "minimum": {
+                    "value": 2.0,
+                    "varType": "double"
+                },
+                "niceName": {
+                    "value": "Oscillator 1",
+                    "varType": "string"
+                },
+                "timeScale": {
+                    "value": 5.0,
+                    "varType": "double"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "oscillator#1",
+            "nodeType": "oscillator"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#30",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Polygon 4",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "polygonShape#4",
+            "nodeType": "polygonShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Circle 2",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "circleShape#2",
+            "nodeType": "circleShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "APNG 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderAPNG#1",
+            "nodeType": "renderAPNG"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Star 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "starShape#1",
+            "nodeType": "starShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Super Ellipse 1",
+                    "varType": "string"
+                },
+                "push": {
+                    "value": 0.86,
+                    "varType": "double"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "superEllipseShape#1",
+            "nodeType": "superEllipseShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#30",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "materialColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 108,
+                        "g": 108,
+                        "r": 108
+                    },
+                    "varType": "color"
+                },
+                "niceName": {
+                    "value": "Color 26",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#26",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#47",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#48",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "compId": {
+                    "value": "compNode#1",
+                    "varType": "string"
+                },
+                "fileName": {
+                    "value": "kaboom",
+                    "varType": "string"
+                },
+                "filePath": {
+                    "value": "/Users/gin",
+                    "varType": "string"
+                },
+                "frameRange": {
+                    "value": {
+                        "x": 0,
+                        "y": 30
+                    },
+                    "varType": "int2"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderQueueItem#1",
+            "nodeType": "renderQueueItem"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#35",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "PNG 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderPNG#1",
+            "nodeType": "renderPNG"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#5",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "count": {
+                    "value": 27,
+                    "varType": "int"
+                },
+                "niceName": {
+                    "value": "Random 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                },
+                "size": {
+                    "value": {
+                        "x": 279.0,
+                        "y": 99.0
+                    },
+                    "varType": "double2"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "randomDistribution#1",
+            "nodeType": "randomDistribution"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#4",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#1",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#6",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "locked": {
+                    "value": true,
+                    "varType": "bool"
+                },
+                "niceName": {
+                    "value": "Background Shape 1",
+                    "varType": "string"
+                },
+                "resolution": {
+                    "value": {
+                        "x": 1920,
+                        "y": 1080
+                    },
+                    "varType": "int2"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "backgroundShape#1",
+            "nodeType": "backgroundShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 4",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#4",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "inputShape": {
+                    "list": [
+                        {}
+                    ]
+                },
+                "masks": {
+                    "list": [
+                        {
+                            "compound": {
+                                "enabled": {},
+                                "id": {},
+                                "mode": {
+                                    "value": 1,
+                                    "varType": "int"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "motionBlur": {
+                    "value": true,
+                    "varType": "bool"
+                },
+                "niceName": {
+                    "value": "Outline 6",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "outline#6",
+            "nodeType": "outline"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "deformers": {
+                    "list": [
+                        {}
+                    ]
+                },
+                "hierarchy": {
+                    "value": false,
+                    "varType": "bool"
+                },
+                "niceName": {
+                    "value": "Convex Hull 1",
+                    "varType": "string"
+                },
+                "shapes": {
+                    "list": [
+                        {}
+                    ]
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "convexHull#1",
+            "nodeType": "convexHull"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#7",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Path Offset 2 Convex Hull 1",
+                    "varType": "string"
+                },
+                "offset": {
+                    "value": 22.0,
+                    "varType": "double"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "pathOffsetBehaviour#2",
+            "nodeType": "pathOffsetBehaviour"
+        },
+        {
+            "attributes": {
+                "materialColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                    },
+                    "varType": "color"
+                },
+                "niceName": {
+                    "value": "Color 6",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#6",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "count": {
+                    "value": 27,
+                    "varType": "int"
+                },
+                "niceName": {
+                    "value": "Path 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "pathDistribution#1",
+            "nodeType": "pathDistribution"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 4",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#4",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#7",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#6",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "materialColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 130,
+                        "g": 130,
+                        "r": 255
+                    },
+                    "varType": "color"
+                },
+                "niceName": {
+                    "value": "Color 5",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#5",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "alignment": {
+                    "value": 1,
+                    "varType": "enum"
+                },
+                "color": {
+                    "value": "Purple",
+                    "varType": "string"
+                },
+                "font": {
+                    "value": {
+                        "font": "BadaBoom BB",
+                        "style": "Regular"
+                    },
+                    "varType": "font"
+                },
+                "fontSize": {
+                    "value": 52,
+                    "varType": "int"
+                },
+                "niceName": {
+                    "value": "Type Shape 1",
+                    "varType": "string"
+                },
+                "position": {
+                    "value": {
+                        "x": -20.76648712158203,
+                        "y": 33.51636505126953
+                    },
+                    "varType": "double2"
+                },
+                "scale": {
+                    "value": {
+                        "x": 2.5000013267948966,
+                        "y": 2.5000013267948966
+                    },
+                    "varType": "double2"
+                },
+                "text": {
+                    "value": "KABOOooM!!",
+                    "varType": "string"
+                },
+                "verticalAlignment": {
+                    "value": 1,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "typeShape#1",
+            "nodeType": "typeShape"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#1",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#2",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#2",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Ellipse 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "ellipseShape#1",
+            "nodeType": "ellipseShape"
+        },
+        {
+            "attributes": {
+                "materialColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                    },
+                    "varType": "color"
+                },
+                "niceName": {
+                    "value": "Color 2",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#2",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Grid 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "gridDistribution#1",
+            "nodeType": "gridDistribution"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#4",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 6",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#6",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "maximum": {
+                    "value": 1.6,
+                    "varType": "double"
+                },
+                "minimum": {
+                    "value": 0.25,
+                    "varType": "double"
+                },
+                "niceName": {
+                    "value": "Simplex Noise 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                },
+                "stagger": {
+                    "value": 200.0,
+                    "varType": "double"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "simplexNoise#1",
+            "nodeType": "simplexNoise"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "motionBlur": {
+                    "value": true,
+                    "varType": "bool"
+                },
+                "niceName": {
+                    "value": "Duplicator 1",
+                    "varType": "string"
+                },
+                "shapeRotation": {
+                    "value": 1.1355440680674742,
+                    "varType": "double"
+                },
+                "shapeScale": {
+                    "value": {
+                        "x": 0.9816315611785745,
+                        "y": 1.1355440680674742
+                    },
+                    "varType": "double2"
+                },
+                "shapes": {
+                    "list": [
+                        {}
+                    ]
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "duplicator#1",
+            "nodeType": "duplicator"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 2",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#2",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Pink",
+                    "varType": "string"
+                },
+                "niceName": {
+                    "value": "Noise 1",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "noise#1",
+            "nodeType": "noise"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "niceName": {
+                    "value": "EllipseShape",
+                    "varType": "string"
+                },
+                "opacity": {
+                    "value": 0.8278701805574518,
+                    "varType": "double"
+                },
+                "position": {
+                    "value": {
+                        "x": -14.8125,
+                        "y": 60.875
+                    },
+                    "varType": "double2"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "basicShape#1",
+            "nodeType": "basicShape"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "asset#1",
+            "nodeType": "asset"
+        },
+        {
+            "attributes": {
+                "backgroundColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 255,
+                        "g": 255,
+                        "r": 255
+                    },
+                    "varType": "color"
+                },
+                "niceName": {
+                    "value": "Composition 1",
+                    "varType": "string"
+                },
+                "playbackEnd": {
+                    "value": 30,
+                    "varType": "int"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "compNode#1",
+            "nodeType": "compNode"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "paletteContainer#1",
+            "nodeType": "paletteContainer"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Default Scene Palette",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorArray#1",
+            "nodeType": "colorArray"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "renderQueue#1",
+            "nodeType": "renderQueue"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#1",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#1",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 5",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#5",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#8",
+            "nodeType": "animationCurve"
+        }
+    ],
+    "resourceType": "cavalry.scenefile",
+    "tags": [],
+    "version": "1.0.1"
+}
