@@ -1,0 +1,3254 @@
+{
+    "activeComp": "compNode#3",
+    "assets": [],
+    "connections": [
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#36.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#36.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#85.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#85.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#32.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#32.time"
+        },
+        {
+            "from": "animationCurve#12.out",
+            "to": "compNode#3.on"
+        },
+        {
+            "from": "animationCurve#80.out",
+            "to": "noise#6.on"
+        },
+        {
+            "from": "cubicNoise#1.id",
+            "to": "noise#6.generator"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#38.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#38.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#39.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#39.time"
+        },
+        {
+            "from": "animationCurve#84.out",
+            "to": "basicShape#11.position.y"
+        },
+        {
+            "from": "animationCurve#39.out",
+            "to": "basicShape#11.on"
+        },
+        {
+            "from": "ellipseShape#8.id",
+            "to": "basicShape#11.generator"
+        },
+        {
+            "from": "colorMaterial#58.id",
+            "to": "basicShape#11.material"
+        },
+        {
+            "from": "animationCurve#83.out",
+            "to": "basicShape#11.position.x"
+        },
+        {
+            "from": "animationCurve#36.out",
+            "to": "lookAt#1.on"
+        },
+        {
+            "from": "basicShape#11.id",
+            "to": "lookAt#1.target"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#83.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#83.activeAnimationLayer"
+        },
+        {
+            "from": "animationCurve#32.out",
+            "to": "customShape#1.on"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#97.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#97.activeAnimationLayer"
+        },
+        {
+            "from": "animationCurve#38.out",
+            "to": "basicShape#10.on"
+        },
+        {
+            "from": "colorMaterial#57.id",
+            "to": "basicShape#10.material"
+        },
+        {
+            "from": "ellipseShape#7.id",
+            "to": "basicShape#10.generator"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#87.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#33.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#33.time"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#12.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#12.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#82.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#82.activeAnimationLayer"
+        },
+        {
+            "from": "lookAt#1.id",
+            "to": "valueBlend#2.secondValue"
+        },
+        {
+            "from": "noise#6.id",
+            "to": "valueBlend#2.firstValue"
+        },
+        {
+            "from": "animationCurve#82.out",
+            "to": "valueBlend#2.on"
+        },
+        {
+            "from": "animationCurve#85.out",
+            "to": "valueBlend#2.strength"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#84.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#84.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "simplexNoise#6.time"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "cubicNoise#1.time"
+        },
+        {
+            "from": "colorMaterial#36.id",
+            "to": "textShape#2.material"
+        },
+        {
+            "from": "animationCurve#14.out",
+            "to": "textShape#2.on"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#14.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#14.time"
+        },
+        {
+            "from": "compNode#3.time",
+            "to": "animationCurve#80.time"
+        },
+        {
+            "from": "compNode#3.outActiveAnimationLayer",
+            "to": "animationCurve#80.activeAnimationLayer"
+        },
+        {
+            "from": "animationCurve#97.out",
+            "to": "textShape#4.opacity"
+        },
+        {
+            "from": "colorMaterial#71.id",
+            "to": "textShape#4.material"
+        },
+        {
+            "from": "animationCurve#87.out",
+            "to": "textShape#4.on"
+        },
+        {
+            "from": "animationCurve#33.out",
+            "to": "duplicator#4.on"
+        },
+        {
+            "from": "gridDistribution#4.id",
+            "to": "duplicator#4.generator"
+        },
+        {
+            "from": "customShape#1.id",
+            "to": "duplicator#4.shapes.0"
+        },
+        {
+            "from": "valueBlend#2.id",
+            "to": "duplicator#4.shapeRotation"
+        },
+        {
+            "from": "renderPNG#6.id",
+            "to": "renderQueueItem#6.generator"
+        }
+    ],
+    "nodeMeta": [
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#35"
+        },
+        {
+            "children": [
+                "colorMaterial#37"
+            ],
+            "nodeId": "hiddenFolder#63"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#36"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#45"
+        },
+        {
+            "children": [
+                "compNode#3"
+            ],
+            "nodeId": "asset#1"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#43"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#37"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#36"
+        },
+        {
+            "children": [
+                "strokeMaterial#40"
+            ],
+            "nodeId": "hiddenFolder#68"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#44"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#85"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#40"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#32"
+        },
+        {
+            "children": [
+                "colorMaterial#45"
+            ],
+            "nodeId": "hiddenFolder#77"
+        },
+        {
+            "children": [
+                "strokeMaterial#58",
+                "colorMaterial#58",
+                "ellipseShape#8"
+            ],
+            "nodeId": "hiddenFolder#99"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#43"
+        },
+        {
+            "children": [
+                "colorMaterial#69"
+            ],
+            "nodeId": "hiddenFolder#120"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#57"
+        },
+        {
+            "children": [
+                "strokeMaterial#64"
+            ],
+            "nodeId": "hiddenFolder#111"
+        },
+        {
+            "children": [
+                "textShape#4",
+                "hiddenFolder#121",
+                "hiddenFolder#120",
+                "hiddenFolder#111",
+                "hiddenFolder#110",
+                "basicShape#11",
+                "lookAt#1",
+                "valueBlend#2",
+                "noise#6",
+                "duplicator#4",
+                "customShape#1",
+                "hiddenFolder#86",
+                "hiddenFolder#85",
+                "hiddenFolder#78",
+                "hiddenFolder#77",
+                "hiddenFolder#76",
+                "hiddenFolder#75",
+                "hiddenFolder#74",
+                "hiddenFolder#73",
+                "hiddenFolder#68",
+                "hiddenFolder#67",
+                "hiddenFolder#64",
+                "hiddenFolder#63",
+                "hiddenFolder#61",
+                "hiddenFolder#60",
+                "animationCurve#12"
+            ],
+            "nodeId": "compNode#3"
+        },
+        {
+            "children": [
+                "hiddenFolder#157",
+                "animationCurve#80"
+            ],
+            "nodeId": "noise#6"
+        },
+        {
+            "children": [
+                "strokeMaterial#36",
+                "colorMaterial#36"
+            ],
+            "nodeId": "hiddenFolder#62"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#71"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#64"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#44"
+        },
+        {
+            "children": [
+                "colorMaterial#43"
+            ],
+            "nodeId": "hiddenFolder#73"
+        },
+        {
+            "children": [
+                "strokeMaterial#57",
+                "colorMaterial#57",
+                "ellipseShape#7"
+            ],
+            "nodeId": "hiddenFolder#98"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#69"
+        },
+        {
+            "children": [
+                "strokeMaterial#54",
+                "colorMaterial#54"
+            ],
+            "nodeId": "hiddenFolder#95"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#54"
+        },
+        {
+            "children": [],
+            "nodeId": "gridDistribution#4"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#38"
+        },
+        {
+            "children": [],
+            "nodeId": "ellipseShape#7"
+        },
+        {
+            "children": [
+                "strokeMaterial#55",
+                "colorMaterial#55",
+                "gridDistribution#4"
+            ],
+            "nodeId": "hiddenFolder#96"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#54"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#55"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#58"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#39"
+        },
+        {
+            "children": [
+                "animationCurve#84",
+                "animationCurve#83",
+                "hiddenFolder#99",
+                "animationCurve#39"
+            ],
+            "nodeId": "basicShape#11"
+        },
+        {
+            "children": [],
+            "nodeId": "renderPNG#6"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#71"
+        },
+        {
+            "children": [
+                "colorMaterial#44"
+            ],
+            "nodeId": "hiddenFolder#75"
+        },
+        {
+            "children": [
+                "colorMaterial#49"
+            ],
+            "nodeId": "hiddenFolder#85"
+        },
+        {
+            "children": [
+                "animationCurve#36"
+            ],
+            "nodeId": "lookAt#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#83"
+        },
+        {
+            "children": [
+                "textShape#2",
+                "hiddenFolder#95",
+                "animationCurve#32"
+            ],
+            "nodeId": "customShape#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#97"
+        },
+        {
+            "children": [
+                "hiddenFolder#98",
+                "animationCurve#38"
+            ],
+            "nodeId": "basicShape#10"
+        },
+        {
+            "children": [],
+            "nodeId": "ellipseShape#8"
+        },
+        {
+            "children": [
+                "colorMaterial#64"
+            ],
+            "nodeId": "hiddenFolder#110"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#69"
+        },
+        {
+            "children": [
+                "strokeMaterial#45"
+            ],
+            "nodeId": "hiddenFolder#78"
+        },
+        {
+            "children": [
+                "strokeMaterial#49"
+            ],
+            "nodeId": "hiddenFolder#86"
+        },
+        {
+            "children": [
+                "renderQueueItem#6"
+            ],
+            "nodeId": "renderQueue#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#87"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#37"
+        },
+        {
+            "children": [
+                "strokeMaterial#37"
+            ],
+            "nodeId": "hiddenFolder#64"
+        },
+        {
+            "children": [
+                "strokeMaterial#44"
+            ],
+            "nodeId": "hiddenFolder#76"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#35"
+        },
+        {
+            "children": [
+                "colorMaterial#40"
+            ],
+            "nodeId": "hiddenFolder#67"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#36"
+        },
+        {
+            "children": [],
+            "nodeId": "renderAPNG#1"
+        },
+        {
+            "children": [
+                "strokeMaterial#43"
+            ],
+            "nodeId": "hiddenFolder#74"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#55"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#49"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#33"
+        },
+        {
+            "children": [
+                "strokeMaterial#69"
+            ],
+            "nodeId": "hiddenFolder#121"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#58"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#12"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#82"
+        },
+        {
+            "children": [
+                "animationCurve#85",
+                "animationCurve#82"
+            ],
+            "nodeId": "valueBlend#2"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#84"
+        },
+        {
+            "children": [
+                "renderAPNG#1",
+                "renderProRes#2",
+                "renderPNG#6"
+            ],
+            "nodeId": "hiddenFolder#171"
+        },
+        {
+            "children": [],
+            "nodeId": "simplexNoise#6"
+        },
+        {
+            "children": [],
+            "nodeId": "cubicNoise#1"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#57"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#40"
+        },
+        {
+            "children": [
+                "basicShape#10",
+                "hiddenFolder#62",
+                "animationCurve#14"
+            ],
+            "nodeId": "textShape#2"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#49"
+        },
+        {
+            "children": [
+                "colorArray#1"
+            ],
+            "nodeId": "paletteContainer#1"
+        },
+        {
+            "children": [],
+            "nodeId": "colorArray#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#14"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#80"
+        },
+        {
+            "children": [
+                "cubicNoise#1",
+                "simplexNoise#6"
+            ],
+            "nodeId": "hiddenFolder#157"
+        },
+        {
+            "children": [
+                "strokeMaterial#71",
+                "colorMaterial#71"
+            ],
+            "nodeId": "hiddenFolder#159"
+        },
+        {
+            "children": [
+                "colorMaterial#35"
+            ],
+            "nodeId": "hiddenFolder#60"
+        },
+        {
+            "children": [
+                "strokeMaterial#35"
+            ],
+            "nodeId": "hiddenFolder#61"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#64"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#45"
+        },
+        {
+            "children": [
+                "animationCurve#97",
+                "hiddenFolder#159",
+                "animationCurve#87"
+            ],
+            "nodeId": "textShape#4"
+        },
+        {
+            "children": [
+                "hiddenFolder#96",
+                "animationCurve#33"
+            ],
+            "nodeId": "duplicator#4"
+        },
+        {
+            "children": [],
+            "nodeId": "renderProRes#2"
+        },
+        {
+            "children": [
+                "hiddenFolder#171"
+            ],
+            "nodeId": "renderQueueItem#6"
+        }
+    ],
+    "nodes": [
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 35",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#35",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 63",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#63",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 36",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#36",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 45",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#45",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "asset#1",
+            "nodeType": "asset"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 43",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#43",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 37",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#37",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 452,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#36",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 68",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#68",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 44",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#44",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                },
+                                {
+                                    "frame": 40,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                },
+                                {
+                                    "frame": 49,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 100.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#85",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 40",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#40",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 453,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#32",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 77",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#77",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#99",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 43",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#43",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 120",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#120",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "materialColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 255,
+                        "g": 0,
+                        "r": 64
+                    },
+                    "varType": "color"
+                },
+                "niceName": {
+                    "value": "Color 57",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#57",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 111",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#111",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "backgroundColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 241,
+                        "g": 241,
+                        "r": 241
+                    },
+                    "varType": "color"
+                },
+                "endFrame": {
+                    "value": 450,
+                    "varType": "int"
+                },
+                "niceName": {
+                    "value": "Main Composition",
+                    "varType": "string"
+                },
+                "playbackEnd": {
+                    "value": 359,
+                    "varType": "int"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "compNode#3",
+            "nodeType": "compNode"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Pink",
+                    "varType": "string"
+                },
+                "niceName": {
+                    "value": "Noise 6",
+                    "varType": "string"
+                },
+                "strength": {
+                    "value": 219.0,
+                    "varType": "double"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "noise#6",
+            "nodeType": "noise"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#62",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 74",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#71",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 64",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#64",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 44",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#44",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 73",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#73",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#98",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 69",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#69",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 95",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#95",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 54",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#54",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Grid 4",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "gridDistribution#4",
+            "nodeType": "gridDistribution"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 451,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#38",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Ellipse 7",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "ellipseShape#7",
+            "nodeType": "ellipseShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#96",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 54",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#54",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 55",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#55",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 58",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#58",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 453,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#39",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "niceName": {
+                    "value": "EllipseShape",
+                    "varType": "string"
+                },
+                "position": {
+                    "value": {
+                        "x": -1000.0,
+                        "y": -400.0
+                    },
+                    "varType": "double2"
+                },
+                "scale": {
+                    "value": {
+                        "x": 0.20521392822265624,
+                        "y": 0.20521392822265624
+                    },
+                    "varType": "double2"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "basicShape#11",
+            "nodeType": "basicShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "PNG 6",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderPNG#6",
+            "nodeType": "renderPNG"
+        },
+        {
+            "attributes": {
+                "materialColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 128,
+                        "g": 127,
+                        "r": 255
+                    },
+                    "varType": "color"
+                },
+                "niceName": {
+                    "value": "Color 74",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#71",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 75",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#75",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 85",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#85",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Pink",
+                    "varType": "string"
+                },
+                "niceName": {
+                    "value": "Look At 1",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "lookAt#1",
+            "nodeType": "lookAt"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 40,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -1000.0
+                                    }
+                                },
+                                {
+                                    "frame": 50,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -3.580704689025879,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 3.580704689025879,
+                                            "y": -0.0
+                                        },
+                                        "value": -793.725830078125
+                                    }
+                                },
+                                {
+                                    "frame": 90,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -12.569572448730469,
+                                            "y": -0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 12.569572448730469,
+                                            "y": 0.0
+                                        },
+                                        "value": -793.7260131835938
+                                    }
+                                },
+                                {
+                                    "frame": 130,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -13.98886489868164,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 13.98886489868164,
+                                            "y": -0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 150,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 174,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -7.855133056640625,
+                                            "y": -0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 7.855133056640625,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 188,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -8.517822265625,
+                                            "y": -0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 8.517822265625,
+                                            "y": 0.0
+                                        },
+                                        "value": 400.0
+                                    }
+                                },
+                                {
+                                    "frame": 222,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -8.517822265625,
+                                            "y": -0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 8.517822265625,
+                                            "y": 0.0
+                                        },
+                                        "value": 400.0
+                                    }
+                                },
+                                {
+                                    "frame": 236,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -8.330963134765625,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 8.330963134765625,
+                                            "y": -0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#83",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "hidden": {
+                    "value": true,
+                    "varType": "bool"
+                },
+                "hierarchy": {
+                    "value": false,
+                    "varType": "bool"
+                },
+                "inputShape": {
+                    "value": {
+                        "meshes": [
+                            {
+                                "address": [
+                                    0,
+                                    0
+                                ],
+                                "fillType": 0,
+                                "path": null
+                            },
+                            {
+                                "address": [
+                                    0
+                                ],
+                                "fillType": 0,
+                                "path": null
+                            }
+                        ],
+                        "version": 1.0
+                    },
+                    "varType": "polyMesh"
+                },
+                "niceName": {
+                    "value": "Custom Shape 1",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "customShape#1",
+            "nodeType": "customShape"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 20,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 100.0
+                                    }
+                                },
+                                {
+                                    "frame": 30,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#97",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "niceName": {
+                    "value": "EllipseShape",
+                    "varType": "string"
+                },
+                "position": {
+                    "value": {
+                        "x": 24.0,
+                        "y": 0.0
+                    },
+                    "varType": "double2"
+                },
+                "scale": {
+                    "value": {
+                        "x": 0.02153274603188038,
+                        "y": 0.02153274603188038
+                    },
+                    "varType": "double2"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "basicShape#10",
+            "nodeType": "basicShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Ellipse 8",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "ellipseShape#8",
+            "nodeType": "ellipseShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 110",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#110",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 69",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#69",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 78",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#78",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 86",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#86",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "renderQueue#1",
+            "nodeType": "renderQueue"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 362,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#87",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 37",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#37",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 64",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#64",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 76",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#76",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 35",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#35",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 67",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#67",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 36",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#36",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "APNG 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderAPNG#1",
+            "nodeType": "renderAPNG"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 74",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#74",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 55",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#55",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 49",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#49",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 454,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#33",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 121",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#121",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "materialColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 91,
+                        "g": 110,
+                        "r": 255
+                    },
+                    "varType": "color"
+                },
+                "niceName": {
+                    "value": "Color 58",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#58",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#12",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 453,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#82",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Pink",
+                    "varType": "string"
+                },
+                "firstValue": {
+                    "value": -361.4942823591384,
+                    "varType": "double"
+                },
+                "hierarchy": {
+                    "value": false,
+                    "varType": "bool"
+                },
+                "niceName": {
+                    "value": "Value Blend 2",
+                    "varType": "string"
+                },
+                "secondValue": {
+                    "value": 111.80141728175464,
+                    "varType": "double"
+                },
+                "strength": {
+                    "value": 0.0,
+                    "varType": "double"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "valueBlend#2",
+            "nodeType": "valueBlend"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 40,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 150,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 164,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 400.0
+                                    }
+                                },
+                                {
+                                    "frame": 198,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 400.0
+                                    }
+                                },
+                                {
+                                    "frame": 212,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 249,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 250,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -9.5504150390625,
+                                            "y": -0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 9.5504150390625,
+                                            "y": 0.0
+                                        },
+                                        "value": 400.0
+                                    }
+                                },
+                                {
+                                    "frame": 260,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 270,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -9.725418090820313,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 9.725418090820313,
+                                            "y": -0.0
+                                        },
+                                        "value": 400.0
+                                    }
+                                },
+                                {
+                                    "frame": 280,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 290,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -9.725418090820313,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 9.725418090820313,
+                                            "y": -0.0
+                                        },
+                                        "value": 400.0
+                                    }
+                                },
+                                {
+                                    "frame": 300,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -400.0
+                                    }
+                                },
+                                {
+                                    "frame": 310,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 0,
+                                        "leftBez": {
+                                            "x": -9.725418090820313,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 9.725418090820313,
+                                            "y": -0.0
+                                        },
+                                        "value": 400.0
+                                    }
+                                },
+                                {
+                                    "frame": 322,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": -745.3581298777808
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#84",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#171",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "maximum": {
+                    "value": 180.0,
+                    "varType": "double"
+                },
+                "minimum": {
+                    "value": -180.0,
+                    "varType": "double"
+                },
+                "niceName": {
+                    "value": "Simplex Noise 6",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "simplexNoise#6",
+            "nodeType": "simplexNoise"
+        },
+        {
+            "attributes": {
+                "maximum": {
+                    "value": 180.0,
+                    "varType": "double"
+                },
+                "minimum": {
+                    "value": -180.0,
+                    "varType": "double"
+                },
+                "niceName": {
+                    "value": "Cubic Noise 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "cubicNoise#1",
+            "nodeType": "cubicNoise"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 57",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#57",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 40",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#40",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Purple",
+                    "varType": "string"
+                },
+                "font": {
+                    "value": {
+                        "font": "Avenir Next",
+                        "style": "Medium"
+                    },
+                    "varType": "font"
+                },
+                "niceName": {
+                    "value": "Text Shape 2",
+                    "varType": "string"
+                },
+                "pivot": {
+                    "value": {
+                        "x": 24.0,
+                        "y": 0.0
+                    },
+                    "varType": "double2"
+                },
+                "text": {
+                    "value": "A",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "textShape#2",
+            "nodeType": "textShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 49",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#49",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "paletteContainer#1",
+            "nodeType": "paletteContainer"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Default Scene Palette",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorArray#1",
+            "nodeType": "colorArray"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 451,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#14",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "value": [
+                        {
+                            "keyframes": [
+                                {
+                                    "frame": 0,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "frame": 453,
+                                    "keyData": {
+                                        "color": "FFC4C4C4",
+                                        "interpolation": 1,
+                                        "leftBez": {
+                                            "x": -5.0,
+                                            "y": 0.0
+                                        },
+                                        "locked": true,
+                                        "rightBez": {
+                                            "x": 5.0,
+                                            "y": 0.0
+                                        },
+                                        "value": 0.0
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "varType": "animationLayerVector"
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#80",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#157",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#159",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 60",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#60",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Hidden Folder 61",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#61",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 64",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#64",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 45",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#45",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Purple",
+                    "varType": "string"
+                },
+                "font": {
+                    "value": {
+                        "font": "DIN Condensed",
+                        "style": "Bold"
+                    },
+                    "varType": "font"
+                },
+                "hierarchy": {
+                    "value": false,
+                    "varType": "bool"
+                },
+                "niceName": {
+                    "value": "Text Shape 4",
+                    "varType": "string"
+                },
+                "pivot": {
+                    "value": {
+                        "x": 16.0,
+                        "y": 23.0
+                    },
+                    "varType": "double2"
+                },
+                "position": {
+                    "value": {
+                        "x": -776.0,
+                        "y": 76.0
+                    },
+                    "varType": "double2"
+                },
+                "text": {
+                    "value": "SENTINELS",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "textShape#4",
+            "nodeType": "textShape"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "niceName": {
+                    "value": "Duplicator 4",
+                    "varType": "string"
+                },
+                "position": {
+                    "value": {
+                        "x": 0.0,
+                        "y": 33.0
+                    },
+                    "varType": "double2"
+                },
+                "scale": {
+                    "value": {
+                        "x": 1.19,
+                        "y": 1.19
+                    },
+                    "varType": "double2"
+                },
+                "shapeRotation": {
+                    "value": -359.4345706931868,
+                    "varType": "double"
+                },
+                "shapes": {
+                    "list": [
+                        {}
+                    ]
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "duplicator#4",
+            "nodeType": "duplicator"
+        },
+        {
+            "attributes": {
+                "codec": {
+                    "value": 0,
+                    "varType": "enum"
+                },
+                "niceName": {
+                    "value": "ProRes 2",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderProRes#2",
+            "nodeType": "renderProRes"
+        },
+        {
+            "attributes": {
+                "compId": {
+                    "value": "compNode#3",
+                    "varType": "string"
+                },
+                "fileName": {
+                    "value": "Main Composition",
+                    "varType": "string"
+                },
+                "filePath": {
+                    "value": "/Users/gin/Documents/workspace/Cavalry/Test - Lookat",
+                    "varType": "string"
+                },
+                "frameRange": {
+                    "value": {
+                        "x": 0,
+                        "y": 360
+                    },
+                    "varType": "int2"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderQueueItem#6",
+            "nodeType": "renderQueueItem"
+        }
+    ],
+    "resourceType": "cavalry.scenefile",
+    "tags": [],
+    "version": "1.0.2"
+}
