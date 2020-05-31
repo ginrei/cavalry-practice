@@ -3238,7 +3238,7 @@
                 "frameRange": {
                     "value": {
                         "x": 0,
-                        "y": 360
+                        "y": 359
                     },
                     "varType": "int2"
                 }
