@@ -1,0 +1,1865 @@
+{
+    "activeComp": "compNode#1",
+    "assets": [],
+    "connections": [
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#9.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#9.time"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#10.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#10.time"
+        },
+        {
+            "from": "renderProRes#1.id",
+            "to": "renderQueueItem#1.generator"
+        },
+        {
+            "from": "compNode#1.id",
+            "to": "renderQueueItem#1.targets.0"
+        },
+        {
+            "from": "animationCurve#8.out",
+            "to": "stagger#1.maximum"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#6.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#6.time"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#4.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#4.time"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#11.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#11.time"
+        },
+        {
+            "from": "compNode#1.startFrame",
+            "to": "growthSolver#1.startFrame"
+        },
+        {
+            "from": "compNode#1.endFrame",
+            "to": "growthSolver#1.endFrame"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "growthSolver#1.time"
+        },
+        {
+            "from": "skew#1.id",
+            "to": "basicShape#2.deformers.0"
+        },
+        {
+            "from": "strokeMaterial#4.id",
+            "to": "basicShape#2.stroke"
+        },
+        {
+            "from": "rectangleShape#1.id",
+            "to": "basicShape#2.generator"
+        },
+        {
+            "from": "animationCurve#4.out",
+            "to": "basicShape#2.on"
+        },
+        {
+            "from": "compNode#1.outActiveAnimationLayer",
+            "to": "animationCurve#8.activeAnimationLayer"
+        },
+        {
+            "from": "compNode#1.time",
+            "to": "animationCurve#8.time"
+        },
+        {
+            "from": "animationCurve#10.out",
+            "to": "circleDistribution#1.angle"
+        },
+        {
+            "from": "animationCurve#9.out",
+            "to": "circleDistribution#1.radius"
+        },
+        {
+            "from": "animationCurve#11.out",
+            "to": "duplicator#1.rotation"
+        },
+        {
+            "from": "stagger#1.id",
+            "to": "duplicator#1.deformers.0"
+        },
+        {
+            "from": "circleDistribution#1.id",
+            "to": "duplicator#1.generator"
+        },
+        {
+            "from": "duplicator#1.shapeScale.x",
+            "to": "duplicator#1.shapeScale.y"
+        },
+        {
+            "from": "basicShape#2.id",
+            "to": "duplicator#1.shapes.0"
+        },
+        {
+            "from": "stagger#1.id",
+            "to": "duplicator#1.shapeRotation"
+        },
+        {
+            "from": "animationCurve#6.out",
+            "to": "duplicator#1.on"
+        }
+    ],
+    "nodeMeta": [
+        {
+            "children": [],
+            "nodeId": "skew#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#9"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#10"
+        },
+        {
+            "children": [
+                "circleDistribution#1",
+                "strokeMaterial#6",
+                "colorMaterial#6",
+                "gridDistribution#1"
+            ],
+            "nodeId": "hiddenFolder#6"
+        },
+        {
+            "children": [],
+            "nodeId": "gridDistribution#1"
+        },
+        {
+            "children": [
+                "renderProRes#1",
+                "renderPNG#1"
+            ],
+            "nodeId": "hiddenFolder#8"
+        },
+        {
+            "children": [],
+            "nodeId": "renderPNG#1"
+        },
+        {
+            "children": [
+                "hiddenFolder#8"
+            ],
+            "nodeId": "renderQueueItem#1"
+        },
+        {
+            "children": [],
+            "nodeId": "renderProRes#1"
+        },
+        {
+            "children": [
+                "animationCurve#8"
+            ],
+            "nodeId": "stagger#1"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#6"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#4"
+        },
+        {
+            "children": [
+                "strokeMaterial#4",
+                "colorMaterial#4",
+                "rectangleShape#1"
+            ],
+            "nodeId": "hiddenFolder#4"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#4"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#4"
+        },
+        {
+            "children": [],
+            "nodeId": "colorMaterial#6"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#11"
+        },
+        {
+            "children": [],
+            "nodeId": "rectangleShape#1"
+        },
+        {
+            "children": [],
+            "nodeId": "strokeMaterial#6"
+        },
+        {
+            "children": [],
+            "nodeId": "growthSolver#1"
+        },
+        {
+            "children": [
+                "skew#1",
+                "hiddenFolder#4",
+                "animationCurve#4"
+            ],
+            "nodeId": "basicShape#2"
+        },
+        {
+            "children": [],
+            "nodeId": "animationCurve#8"
+        },
+        {
+            "children": [
+                "animationCurve#10",
+                "animationCurve#9"
+            ],
+            "nodeId": "circleDistribution#1"
+        },
+        {
+            "children": [
+                "animationCurve#11",
+                "stagger#1",
+                "hiddenFolder#6",
+                "animationCurve#6"
+            ],
+            "nodeId": "duplicator#1"
+        },
+        {
+            "children": [
+                "compNode#1"
+            ],
+            "nodeId": "asset#1"
+        },
+        {
+            "children": [
+                "duplicator#1",
+                "basicShape#2",
+                "growthSolver#1"
+            ],
+            "nodeId": "compNode#1"
+        },
+        {
+            "children": [
+                "colorArray#1"
+            ],
+            "nodeId": "paletteContainer#1"
+        },
+        {
+            "children": [],
+            "nodeId": "colorArray#1"
+        },
+        {
+            "children": [
+                "renderQueueItem#1"
+            ],
+            "nodeId": "renderQueue#1"
+        },
+        {
+            "children": [],
+            "nodeId": "dynamicIndexManager#1"
+        }
+    ],
+    "nodes": [
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Skew 1 [RectangleShape 1]",
+                    "varType": "string"
+                },
+                "pivotY": {
+                    "value": 49.456520080566406,
+                    "varType": "double"
+                },
+                "skew": {
+                    "value": {
+                        "x": 0.0,
+                        "y": 0.4
+                    },
+                    "varType": "double2"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "skew#1",
+            "nodeType": "skew"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "list": [
+                        {
+                            "compound": {
+                                "data": {
+                                    "value": [
+                                        {
+                                            "frame": 0,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 192.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 20,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 192.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 29,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 192.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 30,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 192.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 50,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 192.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 59,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 192.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 60,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 171.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 80,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 35.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 149,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 35.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 150,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 171.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 180,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 171.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 200,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 210,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 230,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 192.0
+                                            }
+                                        }
+                                    ],
+                                    "varType": "numericAnimationLayer"
+                                },
+                                "layer": {}
+                            }
+                        }
+                    ]
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#9",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "list": [
+                        {
+                            "compound": {
+                                "data": {
+                                    "value": [
+                                        {
+                                            "frame": 0,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 20,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 360.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 29,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 360.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 30,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 1.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 50,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 360.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 59,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 360.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 60,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 1.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 80,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 360.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 149,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 360.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 150,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 1.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 170,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 360.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 200,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 360.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 210,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 360.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 230,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        }
+                                    ],
+                                    "varType": "numericAnimationLayer"
+                                },
+                                "layer": {}
+                            }
+                        }
+                    ]
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#10",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#6",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Grid 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "gridDistribution#1",
+            "nodeType": "gridDistribution"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#8",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "PNG 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderPNG#1",
+            "nodeType": "renderPNG"
+        },
+        {
+            "attributes": {
+                "fileName": {
+                    "value": "doors",
+                    "varType": "string"
+                },
+                "filePath": {
+                    "value": "/Users/gin/Documents/workspace/Cavalry/Test - Skew Dupricate",
+                    "varType": "string"
+                },
+                "frameRange": {
+                    "value": {
+                        "x": 0,
+                        "y": 240
+                    },
+                    "varType": "int2"
+                },
+                "niceName": {
+                    "value": "Composition 1 Render Item",
+                    "varType": "string"
+                },
+                "targets": {
+                    "list": [
+                        {}
+                    ]
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderQueueItem#1",
+            "nodeType": "renderQueueItem"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "ProRes 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "renderProRes#1",
+            "nodeType": "renderProRes"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Pink",
+                    "varType": "string"
+                },
+                "graph": {
+                    "list": [
+                        {
+                            "compound": {
+                                "interpolation": {},
+                                "joined": {},
+                                "left": {
+                                    "value": {
+                                        "x": -0.5,
+                                        "y": -0.5
+                                    },
+                                    "varType": "double2"
+                                },
+                                "position": {},
+                                "right": {
+                                    "value": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                    },
+                                    "varType": "double2"
+                                },
+                                "weightLocked": {}
+                            }
+                        },
+                        {
+                            "compound": {
+                                "interpolation": {},
+                                "joined": {},
+                                "left": {
+                                    "value": {
+                                        "x": -0.5,
+                                        "y": -0.5
+                                    },
+                                    "varType": "double2"
+                                },
+                                "position": {
+                                    "value": {
+                                        "x": 1.0,
+                                        "y": 1.0
+                                    },
+                                    "varType": "double2"
+                                },
+                                "right": {
+                                    "value": {
+                                        "x": 0.5,
+                                        "y": 0.5
+                                    },
+                                    "varType": "double2"
+                                },
+                                "weightLocked": {}
+                            }
+                        }
+                    ]
+                },
+                "maximum": {
+                    "value": 0.0,
+                    "varType": "double"
+                },
+                "niceName": {
+                    "value": "Stagger 1 [Duplicator 1]",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "stagger#1",
+            "nodeType": "stagger"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "list": [
+                        {
+                            "compound": {
+                                "data": {
+                                    "value": [
+                                        {
+                                            "frame": 0,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 1.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 250,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        }
+                                    ],
+                                    "varType": "numericAnimationLayer"
+                                },
+                                "layer": {}
+                            }
+                        }
+                    ]
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#6",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "list": [
+                        {
+                            "compound": {
+                                "data": {
+                                    "value": [
+                                        {
+                                            "frame": 0,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 1.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 250,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        }
+                                    ],
+                                    "varType": "numericAnimationLayer"
+                                },
+                                "layer": {}
+                            }
+                        }
+                    ]
+                },
+                "dataType": {
+                    "value": 2,
+                    "varType": "enum"
+                },
+                "preInfinity": {
+                    "value": 5,
+                    "varType": "enum"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#4",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "subUINodes",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "hiddenFolder#4",
+            "nodeType": "hiddenFolder"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 4",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#4",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 4",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                },
+                "strokeColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 255,
+                        "g": 0,
+                        "r": 75
+                    },
+                    "varType": "color"
+                },
+                "width": {
+                    "value": 1.9,
+                    "varType": "double"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#4",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Color 6",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorMaterial#6",
+            "nodeType": "colorMaterial"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "list": [
+                        {
+                            "compound": {
+                                "data": {
+                                    "value": [
+                                        {
+                                            "frame": 0,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 29,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 30,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 59,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 60,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 90,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 110,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": -107.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 149,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": -107.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 150,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 1.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 180,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 1.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 200,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 120.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 210,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 120.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 230,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        }
+                                    ],
+                                    "varType": "numericAnimationLayer"
+                                },
+                                "layer": {}
+                            }
+                        }
+                    ]
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#11",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "dimensions": {
+                    "value": {
+                        "x": 200.0,
+                        "y": 320.0
+                    },
+                    "varType": "double2"
+                },
+                "niceName": {
+                    "value": "Rectangle 1",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "rectangleShape#1",
+            "nodeType": "rectangleShape"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Stroke 6",
+                    "varType": "string"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "strokeMaterial#6",
+            "nodeType": "strokeMaterial"
+        },
+        {
+            "attributes": {
+                "endFrame": {
+                    "value": 249,
+                    "varType": "int"
+                },
+                "niceName": {
+                    "value": "Growth Solver 1",
+                    "varType": "string"
+                },
+                "radius": {
+                    "value": 106.0,
+                    "varType": "double"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "growthSolver#1",
+            "nodeType": "growthSolver"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "deformers": {
+                    "list": [
+                        {}
+                    ]
+                },
+                "hidden": {
+                    "value": true,
+                    "varType": "bool"
+                },
+                "niceName": {
+                    "value": "RectangleShape 1",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "basicShape#2",
+            "nodeType": "basicShape"
+        },
+        {
+            "attributes": {
+                "animationLayers": {
+                    "list": [
+                        {
+                            "compound": {
+                                "data": {
+                                    "value": [
+                                        {
+                                            "frame": 0,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 29,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 30,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 90,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 110,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 184.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 120,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 184.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 140,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 1.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 149,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 1.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 150,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 171.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 180,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 171.0
+                                            }
+                                        },
+                                        {
+                                            "frame": 200,
+                                            "keyData": {
+                                                "color": "FFC4C4C4",
+                                                "interpolation": 1,
+                                                "leftBez": {
+                                                    "x": -5.0,
+                                                    "y": 0.0
+                                                },
+                                                "locked": true,
+                                                "rightBez": {
+                                                    "x": 5.0,
+                                                    "y": 0.0
+                                                },
+                                                "value": 0.0
+                                            }
+                                        }
+                                    ],
+                                    "varType": "numericAnimationLayer"
+                                },
+                                "layer": {}
+                            }
+                        }
+                    ]
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "animationCurve#8",
+            "nodeType": "animationCurve"
+        },
+        {
+            "attributes": {
+                "angle": {
+                    "value": 0.0,
+                    "varType": "double"
+                },
+                "calculateRotations": {
+                    "value": false,
+                    "varType": "bool"
+                },
+                "count": {
+                    "value": 99,
+                    "varType": "int"
+                },
+                "niceName": {
+                    "value": "Circle 1",
+                    "varType": "string"
+                },
+                "radius": {
+                    "value": 192.0,
+                    "varType": "double"
+                },
+                "showInProjectWindow": {
+                    "value": false,
+                    "varType": "bool"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "circleDistribution#1",
+            "nodeType": "circleDistribution"
+        },
+        {
+            "attributes": {
+                "color": {
+                    "value": "Blue",
+                    "varType": "string"
+                },
+                "deformers": {
+                    "list": [
+                        {}
+                    ]
+                },
+                "niceName": {
+                    "value": "Duplicator 1",
+                    "varType": "string"
+                },
+                "shapeScale": {
+                    "value": {
+                        "x": 0.5,
+                        "y": 0.5
+                    },
+                    "varType": "double2"
+                },
+                "shapes": {
+                    "list": [
+                        {}
+                    ]
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "duplicator#1",
+            "nodeType": "duplicator"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "asset#1",
+            "nodeType": "asset"
+        },
+        {
+            "attributes": {
+                "backgroundColor": {
+                    "value": {
+                        "a": 255,
+                        "b": 239,
+                        "g": 239,
+                        "r": 239
+                    },
+                    "varType": "color"
+                },
+                "niceName": {
+                    "value": "Composition 1",
+                    "varType": "string"
+                },
+                "playbackEnd": {
+                    "value": 240,
+                    "varType": "int"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "compNode#1",
+            "nodeType": "compNode"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "paletteContainer#1",
+            "nodeType": "paletteContainer"
+        },
+        {
+            "attributes": {
+                "niceName": {
+                    "value": "Default Scene Palette",
+                    "varType": "string"
+                }
+            },
+            "contextFilter": [],
+            "nodeId": "colorArray#1",
+            "nodeType": "colorArray"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "renderQueue#1",
+            "nodeType": "renderQueue"
+        },
+        {
+            "attributes": {},
+            "contextFilter": [],
+            "nodeId": "dynamicIndexManager#1",
+            "nodeType": "dynamicIndexManager"
+        }
+    ],
+    "resourceType": "cavalry.scenefile",
+    "tags": [],
+    "version": "1.0.5"
+}
